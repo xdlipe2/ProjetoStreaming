@@ -1,0 +1,72 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --vermelho-secundario: #ff0000;
+    --botao-azul: rgba(8, 0, 255, 0.795);
+    --cor-de-fundo: #000000;
+    --cor-de-fundo2: #ffffff;
+    --fonte-principal: 'Merriweather';
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+.container__section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    align-items: center;
+}
+
+.container__imagemfundo{
+    background-image: url(imagens/ProjetoImagemHome.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.container__margem{
+    margin: 0 1em;
+}
+.imagemhome{
+    height: 70px;
+    margin: 5em 2em; 
+    
+}
+.container__titulo {
+    font-size: 40px;
+    display: grid;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.container__subtitulo{
+    font-size: 25px;
+    display: grid;
+    text-align: center;
+}
+
+.container__botao{
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    display: grid;
+    text-decoration:none;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 1em;
+    margin: 1em 0 1em;
+    text-align: center;
+
+}
+
+.container__descricao{
+    color: var(--vermelho-secundario);
+    font-size: 15px;
+    text-align: center;
+}
+
+.segundario__section{
+    background-color: var(--cor-de-fundo2);
+    color: black;
+}
+
